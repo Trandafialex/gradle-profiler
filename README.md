@@ -152,7 +152,6 @@ This will use JProfiler's CPU sampling by default. JProfiler supports several ot
 YourKit is a powerful commercial profiler, which provides both sampling and instrumentation capabilities.
 Its integration in the Gradle profiler is currently limited, e.g. support for probes and other custom settings
 is missing. If you are using YourKit and would like to see better support, pull requests are welcome.
-
 In order to work with YourKit, make sure the `YOURKIT_HOME` environment variable is set and then use the `--profile yourkit` option. This will use YourKit's CPU sampling instrumentation by default. 
 
 You can switch to CPU tracing using the `--profile yourkit-tracing` option. 
